@@ -16,4 +16,6 @@ Dieser Datensatz enthält medizinische Informationen, anhand derer vorhergesagt 
 12. Anzahl der Gefäße – Anzahl der mittels Fluoroskopie festgestellten Hauptgefäße
 13. Thal – Ergebnis des Thalassämie-Tests (0 = normal; 1 = fester Defekt; 2 = reversibler Defekt Die Namen und Sozialversicherungsnummern der Patienten wurden kürzlich aus der Datenbank entfernt und durch Dummy-Werte ersetzt.)
 
+### Datenschutz
+Dieser Datensatz enthält keine personenbezogenen Daten wie Namen, Adressen oder Sozialversicherungsnummern. Die ursprünglichen Patientenkennungen wurden entfernt und durch anonymisierte Werte ersetzt. Daher ist es nicht möglich, einzelne Patienten zu identifizieren. Der Datensatz enthält ausschließlich medizinische Messwerte, die für Forschungszwecke verwendet werden. Darüber hinaus ist der Datensatz unter einer offenen Lizenz öffentlich zugänglich und kann für Experimente im Bereich des maschinellen Lernens genutzt werden. Bei der Verwendung des Datensatzes wurden keine zusätzlichen personenbezogenen Daten hinzugefügt oder verarbeitet, wodurch sichergestellt ist, dass die Datenschutzbestimmungen eingehalten werden.
 
