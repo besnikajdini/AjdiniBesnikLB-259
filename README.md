@@ -1,18 +1,19 @@
 # AjdiniBesnikLB-259
 ## Context
-Dieser Datensatz stammt aus dem Jahr 1988 und besteht aus vier Datenbanken: Cleveland, Ungarn, Schweiz und Long Beach V. Er enthält 76 Attribute, darunter das vorhergesagte Attribut, aber alle veröffentlichten Experimente beziehen sich auf die Verwendung einer Teilmenge von 14 davon. Das Feld „Ziel” bezieht sich auf das Vorliegen einer Herzerkrankung beim Patienten. Es ist ein ganzzahliger Wert: 0 = keine Erkrankung und 1 = Erkrankung.
+Dieser Datensatz enthält medizinische Informationen, anhand derer vorhergesagt werden kann, ob ein Patient an einer Herzerkrankung leidet. Die Daten stammen aus verschiedenen Krankenhäusern, darunter aus Cleveland, Ungarn, der Schweiz und Long Beach. Jede Zeile steht für einen Patienten und enthält medizinische Messwerte wie Alter, Cholesterinspiegel, Blutdruck, Herzfrequenz und EKG-Ergebnisse. Die Zielvariable gibt an, ob eine Herzerkrankung vorliegt (1) oder nicht (0). Diese Variablen können verwendet werden, um ein Modell des maschinellen Lernens zu trainieren, das anhand der Patientenmerkmale Herzerkrankungen vorhersagt.
 ## Content
-1. Alter
-2. Geschlecht
-3. Art der Brustschmerzen (4 Werte)
-4. Ruheblutdruck
-5. erumcholesterin in mg/dl
-6. Nüchternblutzucker > 120 mg/dl
-7. Elektrokardiographische Ergebnisse in Ruhe (Werte 0,1,2)
-8. erreichte maximale Herzfrequenz
-9. belastungsinduzierte Angina pectoris
-10. oldpeak = durch Belastung induzierte ST-Senkung im Vergleich zur Ruhephase
-11. teigung des ST-Segments bei maximaler Belastung
-12. Anzahl der großen Gefäße (0–3), farbig markiert durch Fluoroskopie
-13. thal: 0 = normal; 1 = fester Defekt; 2 = reversibler Defekt Die Namen und Sozialversicherungsnummern der Patienten wurden kürzlich aus der Datenbank entfernt und durch Dummy-Werte ersetzt.
+1. Alter – Alter des Patienten
+2. Geschlecht – Geschlecht des Patienten
+3. Art der Brustschmerzen – Art der Brustschmerzen (4 Kategorien)
+4. Ruheblutdruck – Blutdruck im Ruhezustand
+5. Serumcholesterin – Cholesterinspiegel in mg/dl
+6. Nüchternblutzucker – Liegt der Nüchternblutzucker über 120 mg/dl?
+7. Ruhe-EKG – Ergebnisse des Elektrokardiogramms
+8. Maximale Herzfrequenz – Während der Belastung erreichte maximale Herzfrequenz
+9. Belastungsangina – Durch körperliche Belastung verursachte Brustschmerzen
+10. Oldpeak – Durch Belastung induzierte ST-Senkung
+11. ST-Steigung – Steigung des ST-Segments
+12. Anzahl der Gefäße – Anzahl der mittels Fluoroskopie festgestellten Hauptgefäße
+13. Thal – Ergebnis des Thalassämie-Tests (0 = normal; 1 = fester Defekt; 2 = reversibler Defekt Die Namen und Sozialversicherungsnummern der Patienten wurden kürzlich aus der Datenbank entfernt und durch Dummy-Werte ersetzt.)
+
 
